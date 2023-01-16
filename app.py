@@ -6,7 +6,7 @@ from sklearn.ensemble import RandomForestRegressor
 model = RandomForestRegressor()
 model.load('models/trained_model.pkl')
 
-st.title('AutoValuator: Car Price Prediction')
+st.title('AutoPricer: A Car Price Prediction Tool')
 
 # Create a function to take user inputs and make a prediction
 def predict_price(make, model, year, mileage):

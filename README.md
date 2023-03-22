@@ -8,13 +8,12 @@
 
 This project aims to predict the prices of used cars based on their features. The predictions are made using regression techniques on a dataset scraped from Autotrader, a popular website for buying and selling cars in the UK. The project includes a Streamlit app that allows users to input the features of a car and get a predicted price.
 
-<div style="display: flex;justify-content:center;align-items: center;" >
-  <img src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"  alt="Image 1">
-  <img src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"  alt="Image 2">
+<div style="display: flex;justify-content:center;align-items: center;"  >
+  <img style="width: 50%;height: auto;margin: 10px;" src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"  alt="Image 1">
+  <img style="width: 50%;height: auto;margin: 10px;" src="https://m.atcdn.co.uk/ect/media/%7Bresize%7D/6261c7bb2152499fb8c6006c9b8497c4.jpg"  alt="Image 2">
 </div>
 
 
-<img src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="800">
 
 ### Dataset
 

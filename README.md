@@ -14,6 +14,14 @@ This project aims to predict the prices of used cars based on their features. Th
   <img style="width: 100%;height: auto;margin: 10px;" src="https://m.atcdn.co.uk/ect/media/%7Bresize%7D/6261c7bb2152499fb8c6006c9b8497c4.jpg"  alt="Image 2">
 </div>
 
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image 1">
+  </div>
+  <div style="flex: 1;">
+    <img src="https://m.atcdn.co.uk/ect/media/%7Bresize%7D/6261c7bb2152499fb8c6006c9b8497c4.jpg" alt="Image 2">
+  </div>
+</div>
 
 
 ### Dataset

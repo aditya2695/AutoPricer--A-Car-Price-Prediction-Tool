@@ -31,7 +31,7 @@ The models were trained on the cleaned dataset using scikit-learn and XGBoost li
     <tr>
       <th>Model</th>
       <th>R-squared</th>
-      <th>Mean squared error</th>
+      <th>Adjusted R-squared</th>
       <th>Root mean squared error</th>
       <th>Mean absolute error</th>
     </tr>
@@ -39,25 +39,19 @@ The models were trained on the cleaned dataset using scikit-learn and XGBoost li
   <tbody>
     <tr>
       <td>Linear regression</td>
-      <td>0.85</td>
-      <td>10.5</td>
-      <td>3.2</td>
-      <td>2.6</td>
+      <td>0.926</td>
+      <td>0.926</td>
+      <td>1244</td>
+      <td>-</td>
     </tr>
     <tr>
-      <td>Random forest regression</td>
-      <td>0.92</td>
+      <td>XgB Regression</td>
+      <td>0.95</td>
       <td>6.7</td>
-      <td>2.6</td>
-      <td>1.9</td>
+      <td>1051</td>
+      <td>750</td>
     </tr>
-    <tr>
-      <td>Support vector regression</td>
-      <td>0.87</td>
-      <td>9.8</td>
-      <td>3.1</td>
-      <td>2.4</td>
-    </tr>
+    
   </tbody>
 </table>
 

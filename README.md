@@ -2,16 +2,28 @@
  
 ### Introduction
 
-In this project, we aim to develop a model that can accurately predict the price of cars based on data scraped from Autotrader, an online marketplace for buying and selling cars. By leveraging the power of machine learning and web scraping techniques, we hope to provide valuable insights for both car buyers and sellers. The project will involve several steps such as web scraping, data cleaning, feature engineering, model selection, training, evaluation, and deployment. Our final model will be able to predict the prices of cars based on their make, model, year, mileage, and other relevant features. This will allow users to make more informed decisions when buying or selling a car, and ultimately help them to get the best price possible.
+This project aims to predict the prices of used cars based on their features. The predictions are made using regression techniques on a dataset scraped from Autotrader, a popular website for buying and selling cars in the UK. The project includes a Streamlit app that allows users to input the features of a car and get a predicted price.
+
+
+### Dataset
+
+The dataset used in this project was scraped from Autotrader using Python and the Beautiful Soup library. The data includes information about various cars, such as their make, model, year, mileage, fuel type, transmission, and more. The dataset was cleaned and preprocessed using Pandas and NumPy to remove any missing values and ensure that the data is in the correct format for regression analysis.
+
+### Regression Techniques
+
+This project uses two regression techniques to predict car prices: Linear Regression and XGBoost. Linear Regression is a simple and interpretable model that fits a linear relationship between the input features and the output variable (i.e., the price). XGBoost is a more complex and powerful model that uses gradient boosting to improve the accuracy of the predictions.
+
+The models were trained on the cleaned dataset using scikit-learn and XGBoost libraries. The models were evaluated using the mean absolute error (MAE) and mean squared error (MSE) metrics to determine their accuracy.
 
 ### Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-Prerequisites
+To run the project, you will need to install the following libraries:
 
-To run this project, you will need to have Python and the following libraries installed:
+    Beautiful Soup
+    Pandas
+    NumPy
+    scikit-learn
+    XGBoost
+    Streamlit
 
-<li>BeautifulSoup</li>
-<li>Pandas</li>
-<li>Numpy</li>
-<li>Sklearn</li>
+To scrape the Autotrader website and preprocess the data, run the data_scraper.py and data_cleaning.py scripts, respectively. To train the regression models and evaluate their accuracy, run the linear_regression.py and xgboost_regression.py scripts.

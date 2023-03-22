@@ -8,19 +8,9 @@
 
 This project aims to predict the prices of used cars based on their features. The predictions are made using regression techniques on a dataset scraped from Autotrader, a popular website for buying and selling cars in the UK. The project includes a Streamlit app that allows users to input the features of a car and get a predicted price.
 
-<div style="display: flex;flex-direction: column;
-  justify-content: center;align-items: center;"  >
-  <img style="width: 100%;height: auto;margin: 10px;" src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"  alt="Image 1">
-  <img style="width: 100%;height: auto;margin: 10px;" src="https://m.atcdn.co.uk/ect/media/%7Bresize%7D/6261c7bb2152499fb8c6006c9b8497c4.jpg"  alt="Image 2">
-</div>
-
 <div style="display: flex;">
-  <div style="flex: 1;">
-    <img src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image 1">
-  </div>
-  <div style="flex: 1;">
-    <img src="https://m.atcdn.co.uk/ect/media/%7Bresize%7D/6261c7bb2152499fb8c6006c9b8497c4.jpg" alt="Image 2">
-  </div>
+  <img  src="https://images.pexels.com/photos/243206/pexels-photo-243206.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Image 1" style="width: 50%;">
+  <img src="https://m.atcdn.co.uk/ect/media/%7Bresize%7D/6261c7bb2152499fb8c6006c9b8497c4.jpg" alt="Image 2" style="width: 50%;">
 </div>
 
 

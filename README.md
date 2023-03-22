@@ -1,9 +1,14 @@
 # AutoPricer: A Car Price Prediction Tool
- 
+
+
+
 ### Introduction
+
+
 
 This project aims to predict the prices of used cars based on their features. The predictions are made using regression techniques on a dataset scraped from Autotrader, a popular website for buying and selling cars in the UK. The project includes a Streamlit app that allows users to input the features of a car and get a predicted price.
 
+<img src="https://images.pexels.com/photos/315758/pexels-photo-315758.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" width="800">
 
 ### Dataset
 

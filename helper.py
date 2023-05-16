@@ -9,22 +9,23 @@ from sklearn.metrics import mean_squared_error, mean_absolute_error, r2_score
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import ElasticNet
 from urllib.parse import urlparse
-import mlflow
-import mlflow.sklearn
+
 
 import statsmodels.api as sm
 import statsmodels.tools 
 import os
 import pickle
-import pandas as pd
+import pandas as pd6
 import numpy as np
 
 
-def eval_metrics(actual, pred):
-    rmse = round(np.sqrt(mean_squared_error(actual, pred)),3)
-    mae = round(mean_absolute_error(actual, pred),2)
-    r2 = round(r2_score(actual, pred),2)
-    return rmse, mae, r2
+
+def eval_metrics(actual, pred, num_features):
+    rmse = round(np.sqrt(mean_squared_error(actual, pred)), 3)
+    mae = round(mean_absolute_error(actual, pred), 2)
+    r2 = round(r2_score(actual, pred), 2)
+    adj_r2 = round(1 - (1-r2)*(len(actual)-1)/(len(actual)-num_features-1), 2)
+    return rmse, mae, r2, adj_r2
 
 def remove_outliers(df,feature):
 
